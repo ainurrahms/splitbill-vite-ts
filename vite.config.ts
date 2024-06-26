@@ -12,19 +12,13 @@ const pwaOptions: Partial<VitePWAOptions> = {
     icons: [
       {
         src: '/split-billx128.png',
-        sizes: '192x192',
+        sizes: '128x128',
         type: 'image/png',
       },
       {
         src: '/split-billx512.png',
         sizes: '512x512',
         type: 'image/png',
-      },
-      {
-        src: '/split-billx512.png',
-        sizes: '512x512',
-        type: 'image/png',
-        purpose: 'any maskable',
       },
     ],
   },
